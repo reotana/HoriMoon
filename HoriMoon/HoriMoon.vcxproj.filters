@@ -13,5 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Direct">
+      <UniqueIdentifier>{a6382d1f-9745-47b0-a6ea-fd9ff0e5c04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Direct">
+      <UniqueIdentifier>{4e5ef06c-a4b1-4af0-a65c-eeb5ac7ac745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{79d3644e-dd5e-484e-98d9-acfe8a4fcec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{054b654b-6114-4dd5-98c4-81a756aa9095}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="DSUTIL.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDirectX.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScreen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameMain1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="DSUTIL.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>헤더 파일\Direct</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
